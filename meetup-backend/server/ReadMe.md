@@ -1,4 +1,4 @@
-#Part 1:
+# Part 1:
 * Backend
     - Express Server
     - Mongo DB
@@ -7,12 +7,12 @@
     - morgan
 * interface
 
-##Tools
+## Tools
 * Postman
 * Robomongo 3T
 
 Folder Structure
-##Backend
+## Backend
     * node_modules
     * server
         * config
@@ -70,7 +70,7 @@ yarn add morgan body-parser
 yarn add babel-preset-stage-0
 > Allow for use of async & installing transform-async-to-generator
 
-#Part 2:
+# Part 2:
     1. Add eslint
     2. Add editorconfig
     3. Create Module Groups
