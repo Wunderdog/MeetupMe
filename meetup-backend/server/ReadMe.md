@@ -11,8 +11,8 @@
 * Postman
 * Robomongo 3T
 
-Folder Structure
-## Backend
+## Folder Structure
+    Backend
     * node_modules
     * server
         * config
@@ -32,7 +32,7 @@ Folder Structure
     - package.json
     - yarn.lock
 
-Commands
+## Commands
 mkdir meetup-backend
 > create driectory for backend of meetup app
 
@@ -71,17 +71,21 @@ yarn add babel-preset-stage-0
 > Allow for use of async & installing transform-async-to-generator
 
 # Part 2:
-    1. Add eslint
-    2. Add editorconfig
-    3. Create Module Groups
-    4. Create Model Groups
-    5. Make group create meetup
-    6. Validate in postman
+1. Add eslint
+2. Add editorconfig
+3. Create Module Groups
+4. Create Model Groups
+5. Make group create meetup
+6. Validate in postman
 
-    Model Group
-    - name: !String
-    - description: !String
-    - category: !String
-    - Meetups: [Meetup]
-    
-    A group must be created for make a metup. A meetup belongs to a group.
+Model Group
+- name: !String
+- description: !String
+- category: !String
+- Meetups: [Meetup]
+
+A group must be created for make a metup. A meetup belongs to a group.
+
+## Commands
+
+yarn add -D eslint-config-equimper
