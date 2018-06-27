@@ -89,3 +89,21 @@ A group must be created for make a metup. A meetup belongs to a group.
 ## Commands
 
 yarn add -D eslint-config-equimper
+
+# Part 3:
+Backend
+
+Mobile
+
+## Commands
+yarn add -D eslint-config-equimper
+> Add equimper's eslint configuration
+
+yarn add react-native-extended-stylesheet
+> Allow for use of variables in stylesheet
+
+yarn add axios
+> Like fetch but parses the json automatically
+
+yarn add react-native-responsive-screen
+> Enable Referance of displayport percentages
